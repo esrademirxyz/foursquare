@@ -1,0 +1,20 @@
+c:\users\esra-\onedrive\belgeler\visual studio 2015\Projects\FoursquareApp\FoursquareApp.Domain\bin\Debug\FoursquareApp.Domain.dll
+c:\users\esra-\onedrive\belgeler\visual studio 2015\Projects\FoursquareApp\FoursquareApp.Domain\bin\Debug\FoursquareApp.Domain.pdb
+c:\users\esra-\onedrive\belgeler\visual studio 2015\Projects\FoursquareApp\FoursquareApp.Domain\obj\Debug\FoursquareApp.Domain.csprojResolveAssemblyReference.cache
+c:\users\esra-\onedrive\belgeler\visual studio 2015\Projects\FoursquareApp\FoursquareApp.Domain\obj\Debug\FoursquareApp.Domain.dll
+c:\users\esra-\onedrive\belgeler\visual studio 2015\Projects\FoursquareApp\FoursquareApp.Domain\obj\Debug\FoursquareApp.Domain.pdb
+F:\FoursquareApp\FoursquareApp.Domain\bin\Debug\FoursquareApp.Domain.dll
+F:\FoursquareApp\FoursquareApp.Domain\bin\Debug\FoursquareApp.Domain.pdb
+F:\FoursquareApp\FoursquareApp.Domain\obj\Debug\FoursquareApp.Domain.csprojResolveAssemblyReference.cache
+F:\FoursquareApp\FoursquareApp.Domain\obj\Debug\FoursquareApp.Domain.dll
+F:\FoursquareApp\FoursquareApp.Domain\obj\Debug\FoursquareApp.Domain.pdb
+C:\Users\esra-\Desktop\FoursquareApp\FoursquareApp.Domain\bin\Debug\FoursquareApp.Domain.dll
+C:\Users\esra-\Desktop\FoursquareApp\FoursquareApp.Domain\bin\Debug\FoursquareApp.Domain.pdb
+C:\Users\esra-\Desktop\FoursquareApp\FoursquareApp.Domain\obj\Debug\FoursquareApp.Domain.csprojResolveAssemblyReference.cache
+C:\Users\esra-\Desktop\FoursquareApp\FoursquareApp.Domain\obj\Debug\FoursquareApp.Domain.dll
+C:\Users\esra-\Desktop\FoursquareApp\FoursquareApp.Domain\obj\Debug\FoursquareApp.Domain.pdb
+C:\Users\Esra Demir\Desktop\FoursquareApp\FoursquareApp.Domain\bin\Debug\FoursquareApp.Domain.dll
+C:\Users\Esra Demir\Desktop\FoursquareApp\FoursquareApp.Domain\bin\Debug\FoursquareApp.Domain.pdb
+C:\Users\Esra Demir\Desktop\FoursquareApp\FoursquareApp.Domain\obj\Debug\FoursquareApp.Domain.csprojResolveAssemblyReference.cache
+C:\Users\Esra Demir\Desktop\FoursquareApp\FoursquareApp.Domain\obj\Debug\FoursquareApp.Domain.dll
+C:\Users\Esra Demir\Desktop\FoursquareApp\FoursquareApp.Domain\obj\Debug\FoursquareApp.Domain.pdb

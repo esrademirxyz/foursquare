@@ -1,0 +1,33 @@
+﻿@model FoursquareApp.Domain.Venue
+@{
+    ViewBag.Title = "_PartialVenue";
+}
+
+<div class="container body-content">
+    <div class="row" id="photo">
+
+    </div>
+    <div class="row" style="background-color:#E6E6E6;">
+        <div class="col-xs-12">
+            <h4 style="text-align:center;color:black;font-weight:bolder;">@Model.name</h4>
+        </div>
+    </div>
+    <div class="row" style="background-color:#F7F7F7;">
+        <div class="col-xs-12">
+            <label>Tips</label>
+        </div>
+    </div>
+    <div class="row" id="tip">
+        
+    </div>
+
+</div>
+
+<style>
+    #carouselImg {
+        width: 100%;
+        height: auto;
+        border-top-right-radius: 6px;
+        border-top-left-radius: 6px;
+    }
+</style>

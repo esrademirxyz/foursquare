@@ -1,0 +1,40 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+@using (Html.BeginForm("GetVenues", "Home", FormMethod.Post))
+{
+    <div class="row">
+        <div class="col-xs-12 col-sm-6 col-sm-offset-3">
+            <input id="searchArea" name="searchArea" class="form-control" placeholder="Exp. Cafe, Bar" />
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-xs-12 col-sm-6 col-sm-offset-3">
+            <input id="categoryId" name="categoryId" class="form-control" placeholder="Close to me" />
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-xs-12 col-sm-6 col-sm-offset-3">
+            <input type="submit" class="btn-primary form-control"  value="Search"/>
+        </div>
+    </div>
+}
+
+<style>
+    input {
+        margin: 0 auto;
+        float: none;
+        max-width: 325px;
+        border-radius: 6px;
+    }
+
+    .btn-primary {
+        background-color: #4932C6;
+    }
+    .row{
+        margin-bottom:15px;
+    }
+</style>

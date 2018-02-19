@@ -1,0 +1,39 @@
+﻿@model IEnumerable<FoursquareApp.Domain.PhotoItem>
+@{
+    ViewBag.Title = "_PartialPhotos";
+}
+
+<div id="myCarousel" class="carousel slide" data-ride="carousel" style="width:100%;">
+    @*@for (int i = 0; i < Model.Count(); i++)
+    {
+            <!-- Indicators -->
+        <ol class="carousel-indicators">
+            @if (i == 0)
+            {
+                <li data-target="#myCarousel" data-slide-to=i class="active"></li>
+            }
+            else
+            {
+                <li data-target="#myCarousel" data-slide-to=i></li>
+            }
+
+
+        </ol>
+
+            <!-- Wrapper for slides -->
+                <div class="carousel-inner">
+                    @if (i == 0)
+                    {
+                        <div class="item active">
+                            <img id="carouselImg" src="#" />
+                        </div>
+                    }
+                    else
+                    {
+                        <div class="item">
+                            <img id="carouselImg" src="#" />
+                        </div>
+                    }
+                </div>
+    }*@
+</div>

@@ -1,0 +1,77 @@
+﻿@model IEnumerable<FoursquareApp.Domain.Venue>
+
+@foreach (var item in Model)
+{
+    <div class="venue" id=@item.id>
+        <div class="row col-xs-12">
+            <h4>@item.name</h4>
+        </div>
+        <div class="row  col-xs-12">
+            <label>@item.location.address</label>
+        </div>
+        <div class="row col-xs-12">
+            <div class="pull-left">
+                <label>@item.location.city</label>
+            </div>
+            <div class="pull-right">
+                <label id="country">@item.location.country</label>
+            </div>
+        </div>
+
+    </div>
+
+    <hr />
+}
+
+<div id='venueModal' class='modal'>
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div id='venueModalContent'></div>
+        </div>
+    </div>
+</div>
+
+<style>
+    h4 {
+        color: #462EC5;
+    }
+
+    label {
+        font-weight: lighter;
+    }
+
+    #country {
+        color: grey;
+    }
+</style>
+
+@section scripts{
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $(".venue").click(function () {
+                var venueId = $(this).attr('id');
+                var url = '@Url.Action("_PartialVenue","Home")?venueId=' + venueId;
+                $.get(url, function (response) {
+                    var data = response;
+                    $('#venueModalContent').html(data);
+                    $('#venueModal').modal('show');
+                });
+
+                var url = '@Url.Action("_PartialTips","Home")?venueId=' + venueId;
+                $.get(url, function (response) {
+                    var tipData = response;
+                    $('#tip').html(tipData);
+                });
+
+                var url = '@Url.Action("_PartialPhotos","Home")?venueId=' + "4b641af4f964a520409f2ae3";
+                $.get(url, function (response) {
+                    var photoData = response;
+                    $('#photo').html(photoData);
+                });
+            });
+        });
+    </script>
+
+}
+
+

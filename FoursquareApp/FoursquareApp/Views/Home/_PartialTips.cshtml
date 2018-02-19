@@ -1,0 +1,15 @@
+﻿@model IEnumerable<FoursquareApp.Domain.Item>
+@{
+    ViewBag.Title = "_PartialTips";
+}
+
+<div style="overflow-y:scroll; height:200px;">
+    @foreach (var item in Model)
+    {
+        <div class="col-xs-12">
+            <label>@item.text</label>
+        </div>
+    }
+
+</div>
+
